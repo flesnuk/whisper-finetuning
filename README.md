@@ -6,6 +6,7 @@ This repository, however, provides scripts that allow you to fine-tune a Whisper
 
 ## Setup
 ```
+pip install torch==1.12.1+cu116 torchaudio==0.12.1+cu116 torchvision==0.13.1+cu116 --extra-index-url https://download.pytorch.org/whl/cu116
 pip install -r requirements.txt
 ```
 You may also need to install [ffmpeg](https://ffmpeg.org/) and [rust](https://www.rust-lang.org/) to run Whisper depending on your environment.
